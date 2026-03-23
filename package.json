@@ -1,0 +1,14 @@
+{
+  "name": "image-crossfade-video",
+  "version": "1.0.0",
+  "description": "Generate crossfade transition videos from image sequences using sharp and ffmpeg",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "scripts": { "test": "vitest run" },
+  "author": "Justice",
+  "license": "MIT",
+  "keywords": ["video", "crossfade", "sharp", "ffmpeg", "slideshow"],
+  "dependencies": { "sharp": "^0.33.0" },
+  "devDependencies": { "vitest": "^3.0.0" }
+}
